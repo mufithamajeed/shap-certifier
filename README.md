@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-In AI applications deployed in **healthcare, finance, and safety-critical environments**, it is not enough for models to be accurate—**their explanations must also be logically consistent and trustworthy**.
+In AI applications deployed in **healthcare, finance, and safety-critical environments**, it is not enough for models to be accurate,**their explanations must also be logically consistent and trustworthy**.
 
 This project introduces **SHAP Certifier**:  
 A lightweight auditing framework that formally checks whether **SHAP explanations** behave in line with **domain knowledge expectations**. We combine **SHAP values** with formal verification using **Z3 SMT solvers** to flag inconsistent or unstable model explanations.
